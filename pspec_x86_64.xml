@@ -3,7 +3,7 @@
         <Name>seafile</Name>
         <Packager>
             <Name>Jasper Behrensdorf</Name>
-            <Email>jasper.behrensdorf@gmail.com</Email>
+            <Email>solus.citizen140@passmail.net</Email>
         </Packager>
         <License>GPL-2.0-only</License>
         <License>OpenSSL</License>
@@ -41,7 +41,7 @@
 </Description>
         <PartOf>programming.devel</PartOf>
         <RuntimeDependencies>
-            <Dependency release="28">seafile</Dependency>
+            <Dependency release="29">seafile</Dependency>
         </RuntimeDependencies>
         <Files>
             <Path fileType="header">/usr/include/seafile/seafile-error.h</Path>
@@ -53,12 +53,12 @@
         </Files>
     </Package>
     <History>
-        <Update release="28">
-            <Date>2022-05-06</Date>
-            <Version>8.0.7</Version>
+        <Update release="29">
+            <Date>2023-08-24</Date>
+            <Version>9.0.3</Version>
             <Comment>Packaging update</Comment>
             <Name>Jasper Behrensdorf</Name>
-            <Email>jasper.behrensdorf@gmail.com</Email>
+            <Email>solus.citizen140@passmail.net</Email>
         </Update>
     </History>
 </PISI>

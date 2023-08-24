@@ -196,9 +196,11 @@ libglib-2.0.so.0:g_list_delete_link
 libglib-2.0.so.0:g_list_find_custom
 libglib-2.0.so.0:g_list_free
 libglib-2.0.so.0:g_list_free_full
+libglib-2.0.so.0:g_list_insert_sorted
 libglib-2.0.so.0:g_list_insert_sorted_with_data
 libglib-2.0.so.0:g_list_length
 libglib-2.0.so.0:g_list_prepend
+libglib-2.0.so.0:g_list_remove
 libglib-2.0.so.0:g_list_reverse
 libglib-2.0.so.0:g_list_sort
 libglib-2.0.so.0:g_list_sort_with_data
@@ -254,10 +256,12 @@ libglib-2.0.so.0:g_strconcat
 libglib-2.0.so.0:g_strdup
 libglib-2.0.so.0:g_strdup_printf
 libglib-2.0.so.0:g_strfreev
-libglib-2.0.so.0:g_string_append
+libglib-2.0.so.0:g_string_append_len
 libglib-2.0.so.0:g_string_append_printf
 libglib-2.0.so.0:g_string_free
+libglib-2.0.so.0:g_string_free_and_steal
 libglib-2.0.so.0:g_string_insert_c
+libglib-2.0.so.0:g_string_insert_len
 libglib-2.0.so.0:g_string_new
 libglib-2.0.so.0:g_string_printf
 libglib-2.0.so.0:g_strlcpy
@@ -286,8 +290,6 @@ libgobject-2.0.so.0:g_signal_connect_data
 libgobject-2.0.so.0:g_signal_emit_by_name
 libgobject-2.0.so.0:g_signal_new
 libgobject-2.0.so.0:g_type_add_instance_private
-libgobject-2.0.so.0:g_type_check_class_cast
-libgobject-2.0.so.0:g_type_check_instance_cast
 libgobject-2.0.so.0:g_type_class_adjust_private_offset
 libgobject-2.0.so.0:g_type_class_peek_parent
 libgobject-2.0.so.0:g_type_name

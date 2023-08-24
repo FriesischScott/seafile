@@ -1,8 +1,8 @@
 name       : seafile
-version    : 8.0.7
-release    : 28
+version    : 9.0.3
+release    : 29
 source     :
-    - https://github.com/haiwen/seafile/archive/refs/tags/v8.0.7.tar.gz : c6c703476907b9c84ec25fd681d85bced876ee2528409060f7e24058c73cad0a
+    - https://github.com/haiwen/seafile/archive/refs/tags/v9.0.3.tar.gz : 287812758771d698b7bff9ffe50de9c35b9760fb008a5e971ab2ce824c7d2ec6
 license    :
     - GPL-2.0-only
     - OpenSSL
@@ -11,7 +11,6 @@ summary    : Seafile Server and Libraries
 description: |
     File syncing and sharing software with file encryption and group sharing, emphasis on reliability and high performance.
 builddeps  :
-    - pkgconfig(fuse)
     - pkgconfig(libcurl)
     - pkgconfig(libevent)
     - pkgconfig(libsearpc)
